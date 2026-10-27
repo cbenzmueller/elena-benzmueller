@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Elena Benzmüller — field hockey player at Zehlendorfer Wespen Berlin (German U16 champion 2026), artistic gymnast at TuS Lichterfelde and runner for Silvesterlauf Trier. Sports CV with hockey career, gymnastics results, running bests and school awards.">
+<link rel="canonical" href="https://cbenzmueller.github.io/elena-benzmueller/">
+<meta property="og:title" content="Elena Benzmüller — Sports CV">
+<meta property="og:description" content="Field hockey, gymnastics and running: German U16 champion 2026 with Zehlendorfer Wespen · artistic gymnast · middle- and long-distance runner.">
+<meta property="og:image" content="https://cbenzmueller.github.io/elena-benzmueller/img/wespen-deutscher-meister-2026-team.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2312202e'/%3E%3Ctext x='32' y='45' font-size='36' font-family='Helvetica,Arial,sans-serif' font-weight='800' text-anchor='middle' fill='%2363b3e8'%3EEB%3C/text%3E%3C/svg%3E">
+<title>Elena Benzmüller — Sports CV</title>
+<style>
+  :root {
+    --ink: #12202e;
+    --ink-soft: #52606d;
+    --paper: #f7f9fb;
+    --card: #ffffff;
+    --rule: #dde3e9;
+    --accent: #2a8fd4;      /* Wespen sky blue */
+    --accent-ink: #1a6aa3;
+    --hot: #c9971c;         /* champion gold, used sparingly */
+    --hero-bg: #12202e;
+    --hero-ink: #f4f7fa;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e6edf3;
+      --ink-soft: #9aa7b4;
+      --paper: #0d151d;
+      --card: #15212c;
+      --rule: #263544;
+      --accent: #63b3e8;
+      --accent-ink: #8cc8f0;
+      --hero-bg: #0a1118;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent-ink); text-decoration: none; border-bottom: 1px solid currentColor; }
+  a:hover { color: var(--accent); }
+  img, video { max-width: 100%; display: block; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem; }
+
+  /* ---------- hero ---------- */
+  .hero { background: var(--hero-bg); color: var(--hero-ink); padding: 3.2rem 0 3rem; }
+  .hero .wrap { display: grid; grid-template-columns: 1.15fr 1fr; gap: 2.5rem; align-items: center; }
+  .overline { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: #63b3e8; margin-bottom: 1rem; }
+  h1 { font-weight: 800; font-size: clamp(2.6rem, 7vw, 4.4rem); line-height: 1; letter-spacing: -0.025em; margin-bottom: 0.9rem; }
+  .role { font-size: 1.15rem; color: #c9d4de; margin-bottom: 1.6rem; max-width: 34rem; }
+  .role b { color: #fff; font-weight: 700; }
+  .facts { display: flex; flex-wrap: wrap; gap: 0.4rem 1.6rem; margin: -0.6rem 0 1.6rem; max-width: 34rem; }
+  .facts div { font-size: 0.95rem; color: #fff; font-weight: 700; }
+  .facts span { display: block; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.16em; text-transform: uppercase; color: #8798a8; font-weight: 400; }
+  .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem; max-width: 34rem; }
+  .stat { border-left: 3px solid #63b3e8; padding: 0.2rem 0 0.2rem 0.85rem; }
+  .stat.hot { border-color: var(--hot); }
+  .stat .n { font-size: 1.55rem; font-weight: 800; line-height: 1.15; color: #fff; }
+  .stat .l { font-size: 0.8rem; color: #9fb0bf; line-height: 1.35; }
+  .hero-photo { position: relative; }
+  .hero-photo img { border-radius: 10px; aspect-ratio: 2 / 1; object-fit: cover; object-position: 50% 45%; width: 100%; height: auto; }
+  .hero-photo figcaption { font-family: var(--mono); font-size: 0.68rem; color: #8798a8; margin-top: 0.55rem; letter-spacing: 0.04em; }
+  .profiles { margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .profiles a { border: 1px solid #34495c; border-radius: 999px; padding: 0.3rem 0.85rem; font-size: 0.82rem; color: #dbe6ef; }
+  .profiles a:hover { border-color: #63b3e8; color: #fff; }
+
+  /* ---------- nav ---------- */
+  nav.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
+  nav.top .wrap { display: flex; gap: 1.4rem; overflow-x: auto; padding-top: 0.8rem; padding-bottom: 0.8rem; }
+  nav.top a { border: none; color: var(--ink-soft); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+  nav.top a:hover { color: var(--accent); }
+
+  /* ---------- sections ---------- */
+  section { padding: 3rem 0 0.5rem; }
+  .seclabel { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.4rem; }
+  h2 { font-size: clamp(1.6rem, 4vw, 2.1rem); font-weight: 800; letter-spacing: -0.015em; margin-bottom: 1.2rem; }
+  h3 { font-size: 1.2rem; font-weight: 750; letter-spacing: -0.005em; }
+  .prose { max-width: 46rem; font-size: 1.04rem; }
+  .prose p + p { margin-top: 0.85em; }
+
+  /* ---------- timeline ---------- */
+  .timeline { max-width: 52rem; margin-top: 0.5rem; }
+  .tl { display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem; border-top: 1px dashed var(--rule); padding: 0.7rem 0; }
+  .tl:first-child { border-top: none; }
+  .tl .yr { font-family: var(--mono); font-size: 0.8rem; color: var(--accent); padding-top: 0.15rem; }
+  .tl .ev b { font-weight: 700; }
+  .tl .ev span { color: var(--ink-soft); font-size: 0.92rem; }
+
+  /* ---------- club cards ---------- */
+  .clubs { display: grid; gap: 1.2rem; margin-top: 2.2rem; }
+  .club { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 1.4rem 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .club.solo { grid-template-columns: 1fr; }
+  .club .meta { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-soft); letter-spacing: 0.06em; text-transform: uppercase; margin: 0.15rem 0 0.8rem; }
+  .club p, .club li { font-size: 0.96rem; }
+  .club p + p { margin-top: 0.6em; }
+  .club ul { list-style: none; margin-top: 0.4rem; }
+  .club li { padding-left: 1.1rem; position: relative; margin: 0.25rem 0; }
+  .club li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--accent); }
+  .club h4 { font-size: 0.74rem; font-family: var(--mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-soft); margin-top: 1rem; }
+  .medal { display: inline-block; font-size: 0.72rem; font-weight: 700; border-radius: 4px; padding: 0.05rem 0.4rem; margin-right: 0.3rem; vertical-align: 0.08em; }
+  .gold { background: #f6c945; color: #3d2e00; }
+  .silver { background: #cfd6dd; color: #26313b; }
+  .bronze { background: #e0b48a; color: #3d2200; }
+
+  .medals { list-style: none; margin: 0 0 1.4rem; max-width: 46rem; }
+  .medals li { padding-left: 1.1rem; position: relative; margin: 0.25rem 0; font-size: 0.96rem; }
+  .medals li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--accent); }
+  .subhead { font-size: 0.74rem; font-family: var(--mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 0.4rem; }
+
+  .matches { list-style: none; margin-top: 0.4rem; }
+  .matches li { display: grid; grid-template-columns: 6.2rem 1fr; gap: 0.6rem; padding: 0.3rem 0; border-top: 1px dashed var(--rule); font-size: 0.93rem; }
+  .matches li:first-child { border-top: none; }
+  .matches li::before { display: none; }
+  .matches .d { font-family: var(--mono); font-size: 0.78rem; color: var(--accent); padding-top: 0.2rem; }
+  .matches .s { font-family: var(--mono); font-weight: 700; white-space: nowrap; }
+
+  .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; align-content: start; }
+  .gallery.one { grid-template-columns: 1fr; }
+  .gallery button { border: 0; padding: 0; background: none; cursor: zoom-in; border-radius: 8px; overflow: hidden; }
+  .gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 0.25s; }
+  .gallery.one img { aspect-ratio: 16 / 9; }
+  .gallery button:hover img { transform: scale(1.03); }
+  .gallery .wide { grid-column: span 2; }
+  .gallery .wide img { aspect-ratio: 16 / 7; }
+  .gallery figcaption { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-soft); margin-top: 0.4rem; }
+
+  /* ---------- clips ---------- */
+  .clipgrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin: 0.6rem 0 1.4rem; }
+  .clipgrid video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 10px; background: #000; }
+  .clipgrid video.land { aspect-ratio: 16 / 9; }
+  .clipgrid figcaption { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-soft); margin-top: 0.4rem; }
+  .clips { display: grid; gap: 1rem; }
+  .clips video { width: 100%; border-radius: 10px; background: #000; }
+
+  /* ---------- results tables ---------- */
+  .running { display: grid; grid-template-columns: 1fr 15rem; gap: 2rem; align-items: start; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th { text-align: left; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); font-weight: 500; padding: 0 0.6rem 0.5rem 0; border-bottom: 2px solid var(--rule); }
+  td { padding: 0.6rem 0.6rem 0.6rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.t { font-family: var(--mono); font-weight: 700; white-space: nowrap; }
+  td.d { font-weight: 700; white-space: nowrap; }
+  td .note { display: block; color: var(--ink-soft); font-size: 0.82rem; }
+  .rec a, .note a { color: inherit; border-bottom-color: currentColor; }
+  .rec { display: inline-block; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; border-radius: 4px; padding: 0.05rem 0.35rem; margin-left: 0.35rem; vertical-align: 0.1em; background: #f6c945; color: #3d2e00; }
+  .yearhead td { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); padding-top: 1.1rem; border-bottom: none; }
+  .running figure img { border-radius: 10px; }
+  .running figcaption { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-soft); margin-top: 0.5rem; }
+
+  .school { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: start; }
+  footer { margin-top: 4rem; padding: 2rem 0 3rem; border-top: 1px solid var(--rule); font-size: 0.85rem; color: var(--ink-soft); }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
+
+  dialog { border: 0; padding: 0; background: transparent; max-width: 94vw; max-height: 92vh; margin: auto; }
+  dialog::backdrop { background: rgba(5, 10, 15, 0.88); }
+  dialog img { max-width: 94vw; max-height: 86vh; border-radius: 8px; margin: 0 auto; }
+  dialog p { color: #e6edf3; text-align: center; font-size: 0.9rem; margin-top: 0.6rem; }
+
+  @media (max-width: 820px) {
+    .hero .wrap, .club, .running, .school { grid-template-columns: 1fr; }
+    .hero { padding-top: 2.4rem; }
+    .clipgrid { grid-template-columns: repeat(2, 1fr); }
+    .running figure { max-width: 22rem; }
+  }
+  @media (max-width: 520px) {
+    .tl, .matches li { grid-template-columns: 1fr; gap: 0.1rem; }
+    .club { padding: 1.1rem; }
+    td.d { white-space: normal; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="overline">Sports CV · Field Hockey, Gymnastics &amp; Athletics</p>
+      <h1>Elena Benzmüller</h1>
+      <p class="role">Field hockey, gymnastics and running: <b>German champion 2026</b> with the girls' U16 of <b>Zehlendorfer Wespen</b>, Berlin; artistic gymnast at <b>TuS Lichterfelde 1887</b>; middle- and long-distance runner for <b>Silvesterlauf Trier</b>.</p>
+      <div class="facts">
+        <div><span>Hockey</span>Zehlendorfer Wespen · wU16</div>
+        <div><span>Gymnastics</span>TuS Lichterfelde · LK2</div>
+        <div><span>Athletics</span>Silvesterlauf Trier · W15</div>
+        <div><span>Based in</span>Berlin</div>
+      </div>
+      <div class="stats">
+        <div class="stat hot"><div class="n">German champion</div><div class="l">Field hockey, girls' U16, Youth Finals 2026 — 2:1 in the final against Münchner SC</div></div>
+        <div class="stat"><div class="n">2nd all-around</div><div class="l">Artistic gymnastics, Level 6 club competition, Aspire Gymnastics Dubai, May 2025 — 1st on vault and floor</div></div>
+        <div class="stat"><div class="n">20:07</div><div class="l">5 km personal best, Silvesterlauf Trier, Dec 2025 — 29th of the German W14 list</div></div>
+        <div class="stat"><div class="n">42:24</div><div class="l">10 km personal best, Berlin, Oct 2025 — 34th of the German U18 list</div></div>
+      </div>
+      <div class="profiles">
+        <a href="https://ladv.de/leistungsdatenbank/athletenprofil/496671/Elena-Benzm%C3%BCller.htm">Ladv athletics</a>
+        <a href="https://www.wespen.berlin/hockey/jugend-weiblich/u16-1/">Wespen wU16</a>
+        <a href="https://tusli.de/turnen/">TuSLi gymnastics</a>
+        <a href="https://www.magentasport.de/event/finale-u16-frauen/11682738/500934">Final on MagentaSport</a>
+      </div>
+    </div>
+    <figure class="hero-photo">
+      <img src="img/wespen-deutscher-meister-2026-team.jpg" alt="The Zehlendorfer Wespen girls' U16 celebrating behind a 'Deutscher Meister' banner in the Hockeypark stadium" width="1392" height="705">
+      <figcaption>German champions: Zehlendorfer Wespen wU16, Hockeypark Mönchengladbach, 25 October 2026</figcaption>
+    </figure>
+  </div>
+</header>
+
+<nav class="top" aria-label="Sections">
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#hockey">Hockey</a>
+    <a href="#gymnastics">Gymnastics</a>
+    <a href="#running">Running</a>
+    <a href="#football">Football</a>
+    <a href="#school">School</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="about">
+    <p class="seclabel">Introduction</p>
+    <h2>About me</h2>
+    <div class="prose">
+      <p>My name is Elena and I live in Berlin. I love sports, particularly field hockey and gymnastics. I started gymnastics at <a href="https://tusli.de/turnen/">TuS Lichterfelde</a> in 2017/18 and field hockey around 2019, when I joined the <a href="https://www.wespen.berlin/hockey/jugend-weiblich/u16-1/">Zehlendorfer Wespen</a>. I was a member of the Berlin state hockey selection squad (Landeskader) in 2023 and again in 2026.</p>
+      <p>From 2023 to 2025 I lived in Dubai. During that time I focused primarily on gymnastics and joined <a href="https://www.aspiregymnasticsdubai.com/">Aspire Gymnastics Dubai</a>, where I won the Level 4 and Level 5 all-around titles of the club competitions and took the all-around silver at Level 6. I also regularly entered running competitions for <a href="https://ultimateathleticsuae.com/">Ultimate Athletics Dubai</a> and continued to play some hockey.</p>
+      <p>After returning to Germany in autumn 2025 I put hockey first again — and in October 2026 we won the German championship with the Wespen's girls' U16, after the Berlin title, an intermediate round and a penalty-shootout semi-final at the Youth Finals in Mönchengladbach. At the same time I ran new bests over 5 km and 10 km, which brought me three top-50 listings in the <a href="https://www.leichtathletik.de/wettkaempfe/bestenlisten/bestenlisten-archiv-seit-2001">German athletics rankings</a>. Also take a look at the sites of my twin sister <a href="https://cbenzmueller.github.io/carla-benzmueller/">Carla</a> and my brother <a href="https://cbenzmueller.github.io/max-benzmueller/">Max</a>, who are both into sports.</p>
+    </div>
+  </section>
+
+  <section id="hockey">
+    <p class="seclabel">Field hockey</p>
+    <h2>Career</h2>
+    <div class="timeline">
+      <div class="tl"><div class="yr">Oct 2026</div><div class="ev"><b>German champion</b>, girls' U16 field hockey — Zehlendorfer Wespen<br><span>Youth Finals, Hockeypark Mönchengladbach: 8:7 on penalties in the semi-final, 2:1 in the final</span></div></div>
+      <div class="tl"><div class="yr">Sep 2026</div><div class="ev"><b>Berlin champion</b>, girls' U16 field — Zehlendorfer Wespen<br><span>6:0 in the final against Berliner HC</span></div></div>
+      <div class="tl"><div class="yr">2026</div><div class="ev"><b>Berlin state selection squad</b> (Landeskader)</div></div>
+      <div class="tl"><div class="yr">2026</div><div class="ev"><b>Vice-champion of East Germany</b>, U14 indoor — Zehlendorfer Wespen</div></div>
+      <div class="tl"><div class="yr">2023</div><div class="ev"><b>Berlin state selection squad</b> (Landeskader)</div></div>
+      <div class="tl"><div class="yr">2022/23</div><div class="ev"><b>Champion of East Germany</b>, U12 field (2022) · <b>Berlin champion</b>, U12 field · Berlin vice-champion, U12 indoor</div></div>
+      <div class="tl"><div class="yr">2021/22</div><div class="ev">Berlin vice-champion, U12 indoor and field — Zehlendorfer Wespen</div></div>
+      <div class="tl"><div class="yr">since 2019</div><div class="ev"><b>Zehlendorfer Wespen</b>, Berlin — youth teams</div></div>
+    </div>
+
+    <div class="clubs">
+
+      <article class="club">
+        <div>
+          <h3>Zehlendorfer Wespen wU16 — German champions 2026</h3>
+          <p class="meta">Berlin · field season 2026 · shirt number 75</p>
+          <p>The road to the title ran through three rounds. We finished the Berlin main round third and won the Berlin final round (6:0 in the final against Berliner HC); as the East's No. 1 seed we won intermediate round C against Rot-Weiss Köln and MTV Braunschweig; and at the <a href="https://www.hockey.de/jugend/deutsche-meisterschaft/youth-finals-2026/endrunden/endrunde-moenchengladbach">Youth Finals</a> in Mönchengladbach we beat HTC Uhlenhorst Mülheim in a penalty shootout and Münchner SC in the final. It was the Wespen's first German title in this age group and the first girls' U16 field final for both clubs in this millennium — and my twin sister Carla was in the team with me.</p>
+          <h4>Road to the title</h4>
+          <ul class="matches">
+            <li><span class="d">25 Oct 2026</span><span><span class="s">2:1</span> Münchner SC — <b>final</b>, Hockeypark Mönchengladbach (<a href="https://www.hockey.de/leaguematch/2026-hockey-youth-finals--wu16-26dmfwu16/msc-1--wespen-1-247236">match report</a> · <a href="https://www.magentasport.de/event/finale-u16-frauen/11682738/500934">video</a>)</span></li>
+            <li><span class="d">24 Oct 2026</span><span><span class="s">8:7 pen.</span> HTC Uhlenhorst Mülheim — semi-final (<a href="https://www.youtube.com/watch?v=wZt-TJfBbvY">video</a>)</span></li>
+            <li><span class="d">18 Oct 2026</span><span><span class="s">2:1</span> MTV Braunschweig — <a href="https://www.hockey.de/jugend/deutsche-meisterschaft/youth-finals-2026/zwischenrunden/wu16/zwischenrunden-c">intermediate round C</a>, final (<a href="https://www.youtube.com/live/GXa7Zed79LY?t=7450">video</a>)</span></li>
+            <li><span class="d">17 Oct 2026</span><span><span class="s">6:3</span> Rot-Weiss Köln — intermediate round C, semi-final (<a href="https://www.youtube.com/live/apDD2js12sI?t=614">video</a>)</span></li>
+            <li><span class="d">27 Sep 2026</span><span><span class="s">6:0</span> Berliner HC — <a href="https://berlin.hockey.de/articles/berliner-meister-feld-2026-jugend">Berlin championship</a> final (<a href="https://berlin.hockey.de/spielbetrieb/spielplan/feldsaison/jugend/weibliche-u16/meisterschaft-weibliche-u16">results</a>)</span></li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <button class="wide" data-cap="German champions — the Wespen wU16 after the final in Mönchengladbach, 25 October 2026"><img src="img/wespen-deutscher-meister-2026-team.jpg" alt="Team photo of the Zehlendorfer Wespen girls' U16 behind a 'Deutscher Meister' banner" loading="lazy"></button>
+          <button class="wide" data-cap="With the DHB champions' pennant after the final"><img src="img/wespen-deutscher-meister-2026-wimpel.jpg" alt="Two players holding the DHB pennant 'Deutscher Feld-Hockey-Meister weibliche U16 2026' in the stadium" loading="lazy" style="aspect-ratio: 16 / 10; object-position: 50% 52%"></button>
+        </div>
+      </article>
+
+      <article class="club">
+        <div>
+          <h3>Zehlendorfer Wespen — championships and squads</h3>
+          <p class="meta">Berlin · since 2019</p>
+          <h4>Championships</h4>
+          <ul>
+            <li><span class="medal gold">1st</span>German championship, girls' U16 field, 2026</li>
+            <li><span class="medal gold">1st</span>Berlin championship, girls' U16 field, 2026</li>
+            <li><span class="medal silver">2nd</span>East German championship, U14 indoor, 2026</li>
+            <li><span class="medal gold">1st</span>East German championship, U12 field, 2022</li>
+            <li><span class="medal gold">1st</span>Berlin championship, U12 field, 2022/23</li>
+            <li><span class="medal silver">2nd</span>Berlin championship, U12 indoor, 2022/23</li>
+            <li><span class="medal silver">2nd</span>Berlin championship, U12 indoor and field, 2021/22</li>
+          </ul>
+          <h4>Selection squads</h4>
+          <ul>
+            <li>Berlin state selection squad (Landeskader), 2023 and 2026</li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <button class="wide" data-cap="Zehlendorfer Wespen, indoor season — January 2026. Elena is kneeling in the bottom right-hand corner, next to her twin sister Carla"><img src="img/wespen-team-jan-2026.jpg" alt="Zehlendorfer Wespen girls' team in dark blue kits in front of an indoor goal" loading="lazy"></button>
+          <button class="wide" data-cap="Zehlendorfer Wespen team photo with a championship certificate"><img src="img/wespen-team-championship.jpg" alt="Zehlendorfer Wespen girls' team on a blue pitch holding a certificate" loading="lazy"></button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="gymnastics">
+    <p class="seclabel">Artistic gymnastics</p>
+    <h2>Gymnastics</h2>
+    <div class="clubs" style="margin-top:0.5rem">
+
+      <article class="club">
+        <div>
+          <h3>TuS Lichterfelde 1887</h3>
+          <p class="meta">Berlin · since 2017/18 and again since 2025</p>
+          <ul>
+            <li>Currently competing at level LK2 with my team</li>
+            <li><span class="medal gold">1st</span>Berlin Turnliga 3 with the TuSLi team, 2023</li>
+          </ul>
+          <h3 style="margin-top:1.4rem">Aspire Gymnastics Dubai</h3>
+          <p class="meta">Dubai, UAE · 2023 – 2025</p>
+          <ul>
+            <li><span class="medal silver">2nd</span>all-around, <a href="https://www.aspiregymnasticsdubai.com/_files/ugd/b38969_3e560c241b2b4559a321d8e12ecf4778.pdf">Artistic Club Competition, Level 6</a>, May 2025 — 1st vault, 2nd beam, 2nd bars, 1st floor (35.350)</li>
+            <li><span class="medal bronze">4th</span>all-around, <a href="https://www.aspiregymnasticsdubai.com/_files/ugd/b38969_930dfd3718514d628fb08556332b529d.pdf">Little Stars Zayed Sports Tournament</a>, Abu Dhabi, March 2025 — 2nd vault, 2nd beam</li>
+            <li><span class="medal gold">1st</span>all-around, <a href="https://www.aspiregymnasticsdubai.com/_files/ugd/b38969_5c15af12a0774680a1ee7495ceef79e5.pdf">Full Apparatus Artistic Club Competition, Level 5</a>, January 2025 — 1st vault, 1st floor (34.700)</li>
+            <li><span class="medal gold">1st</span>all-around, <a href="https://www.aspiregymnasticsdubai.com/_files/ugd/b38969_403ac738d2c74b7184ae2dc840a87cce.pdf">Full Apparatus Artistic Club Competition, Level 4</a>, January 2024 — 1st vault, 1st bars, 1st floor</li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <button data-cap="On the top step of the podium, Aspire Gymnastics Dubai"><img src="img/aspire-podium.jpg" alt="Elena in a green and blue leotard with arms raised on the first-place podium" loading="lazy" style="aspect-ratio:3/4; object-position: top"></button>
+          <button data-cap="Little Stars Zayed Sports Tournament, Abu Dhabi, 2 March 2025 — USAG Women's Development Program, Level 5"><img src="img/zayed-sports-tournament-2025.jpg" alt="Certificate of participation, Zayed Sports Tournament, March 2025" loading="lazy" style="aspect-ratio:3/4"></button>
+          <button data-cap="Aspire Gymnastics Club Competition, 25–26 January 2025"><img src="img/aspire-club-competition-jan-2025.jpg" alt="Certificate of participation, Aspire Gymnastics Club Competition, January 2025" loading="lazy"></button>
+          <button data-cap="Aspire Full Apparatus Club Competition, 28 January 2024"><img src="img/aspire-club-competition-jan-2024.jpg" alt="Certificate of participation, Aspire Full Apparatus Club Competition, January 2024" loading="lazy"></button>
+        </div>
+      </article>
+
+      <article class="club solo">
+        <div>
+          <h3>Routines</h3>
+          <p class="meta">Vault · beam · bars · floor</p>
+          <h4>Level 6 club competition, May 2025 — 2nd all-around</h4>
+          <div class="clipgrid">
+            <figure><video controls preload="none" poster="media/gym-vault-2025-05-poster.jpg" playsinline class="land"><source src="media/gym-vault-2025-05.mp4" type="video/mp4"></video><figcaption>Vault — 1st</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-beam-2025-05-poster.jpg" playsinline class="land"><source src="media/gym-beam-2025-05.mp4" type="video/mp4"></video><figcaption>Beam — 2nd</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-bars-2025-05-poster.jpg" playsinline class="land"><source src="media/gym-bars-2025-05.mp4" type="video/mp4"></video><figcaption>Bars — 2nd</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-floor-2025-05-poster.jpg" playsinline class="land"><source src="media/gym-floor-2025-05.mp4" type="video/mp4"></video><figcaption>Floor — 1st</figcaption></figure>
+          </div>
+          <h4>Little Stars Zayed Sports Tournament, Abu Dhabi, March 2025 — 4th all-around</h4>
+          <div class="clipgrid">
+            <figure><video controls preload="none" poster="media/gym-vault-2025-03-poster.jpg" playsinline class="land"><source src="media/gym-vault-2025-03.mp4" type="video/mp4"></video><figcaption>Vault — 2nd</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-beam-2025-03-poster.jpg" playsinline class="land"><source src="media/gym-beam-2025-03.mp4" type="video/mp4"></video><figcaption>Beam — 2nd</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-bars-2025-03-poster.jpg" playsinline class="land"><source src="media/gym-bars-2025-03.mp4" type="video/mp4"></video><figcaption>Bars</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-floor-2025-03-poster.jpg" playsinline class="land"><source src="media/gym-floor-2025-03.mp4" type="video/mp4"></video><figcaption>Floor</figcaption></figure>
+          </div>
+          <h4>Level 5 club competition, January 2025 — all-around winner</h4>
+          <div class="clipgrid">
+            <figure><video controls preload="none" poster="media/gym-vault-2025-01-poster.jpg" playsinline><source src="media/gym-vault-2025-01.mp4" type="video/mp4"></video><figcaption>Vault — 1st</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-beam-2025-01-poster.jpg" playsinline><source src="media/gym-beam-2025-01.mp4" type="video/mp4"></video><figcaption>Beam — 3rd</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-bars-2025-01-poster.jpg" playsinline><source src="media/gym-bars-2025-01.mp4" type="video/mp4"></video><figcaption>Bars — 2nd</figcaption></figure>
+            <figure><video controls preload="none" poster="media/gym-floor-2025-01-poster.jpg" playsinline class="land"><source src="media/gym-floor-2025-01.mp4" type="video/mp4"></video><figcaption>Floor — 1st</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="running">
+    <p class="seclabel">Athletics</p>
+    <h2>Running — track &amp; road</h2>
+    <div class="running">
+      <div>
+        <p class="prose" style="margin-bottom:1.2rem">I run for <a href="https://silvesterlauf.de/">Silvesterlauf Trier</a>; in Dubai I competed for Ultimate Athletics Dubai. Full results on <a href="https://ladv.de/leistungsdatenbank/athletenprofil/496671/Elena-Benzm%C3%BCller.htm">Ladv.de</a>.</p>
+        <h4 class="subhead">Highlights</h4>
+        <ul class="medals">
+          <li><span class="medal gold">★</span>Three top-50 listings in the German season rankings 2025 — 29th (W14) and 49th (W15) over 5 km, 34th (U18) over 10 km: 5 km in the <a href="https://bestenliste.leichtathletik.de/Performances?performanceList=4ccb20ca-2309-4462-9f18-ef1cf06db244&amp;eventcode=5S&amp;classcode=W14&amp;environment=1&amp;year=2025&amp;showForeigners=1">W14</a> and <a href="https://bestenliste.leichtathletik.de/Performances?performanceList=4ccb20ca-2309-4462-9f18-ef1cf06db244&amp;eventcode=5S&amp;classcode=W15&amp;environment=1&amp;year=2025&amp;showForeigners=1&amp;pageNumber=2">W15</a> lists, 10 km in the <a href="https://bestenliste.leichtathletik.de/Performances?performanceList=4ccb20ca-2309-4462-9f18-ef1cf06db244&amp;eventcode=10S&amp;classcode=WJU18&amp;environment=1&amp;year=2025&amp;showForeigners=1&amp;pageNumber=2">U18</a> list</li>
+          <li><span class="medal gold">1st</span><a href="https://results.sporthive.com/events/7127507178728423680/races/487571">DASSA Cross-Country Mixed Relays</a> 2023/24 with Kent College Dubai · <span class="medal bronze">3rd</span> <a href="https://results.sporthive.com/events/7131140188752354560/races/487660">DASSA Cross-Country Relays</a> 2023/24</li>
+          <li><span class="medal gold">★</span>Berlin Mini-Marathon 2022, 4.2195 km in <a href="https://berlin.r.mikatiming.com/2022/?content=detail&amp;fpid=search&amp;pid=search&amp;idp=2EF90BN866356&amp;lang=EN_CAP&amp;event=G_2EF90BN8F3&amp;search%5Bname%5D=Benzm%C3%BCller&amp;search_event=G_2EF90BN8F3">18:57</a></li>
+        </ul>
+
+        <table>
+          <thead><tr><th>Distance</th><th>Time</th><th>Where</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr class="yearhead"><td colspan="4">2026 · W15</td></tr>
+            <tr><td class="d">5 km</td><td class="t">22:25</td><td>Potsdam, May 2026</td><td></td></tr>
+            <tr class="yearhead"><td colspan="4">2025 · W14</td></tr>
+            <tr><td class="d">5 km</td><td class="t">20:07</td><td>Silvesterlauf Trier, 31 Dec 2025</td><td>29 (<a href="https://bestenliste.leichtathletik.de/Performances?performanceList=4ccb20ca-2309-4462-9f18-ef1cf06db244&amp;eventcode=5S&amp;classcode=W14&amp;environment=1&amp;year=2025&amp;showForeigners=1">W14</a>) · 49 (<a href="https://bestenliste.leichtathletik.de/Performances?performanceList=4ccb20ca-2309-4462-9f18-ef1cf06db244&amp;eventcode=5S&amp;classcode=W15&amp;environment=1&amp;year=2025&amp;showForeigners=1&amp;pageNumber=2">W15</a>)<span class="note">personal best, at her club's own New Year's Eve race</span></td></tr>
+            <tr><td class="d">10 km</td><td class="t">42:24</td><td>Berlin, Oct 2025</td><td>34 (<a href="https://bestenliste.leichtathletik.de/Performances?performanceList=4ccb20ca-2309-4462-9f18-ef1cf06db244&amp;eventcode=10S&amp;classcode=WJU18&amp;environment=1&amp;year=2025&amp;showForeigners=1&amp;pageNumber=2">WU18</a>)<span class="note">personal best, two years below that age group</span></td></tr>
+            <tr><td class="d">2000 m</td><td class="t">7:28.95</td><td>Trier, Sep 2025</td><td></td></tr>
+            <tr><td class="d">800 m</td><td class="t">2:32.86</td><td>Berlin-Zehlendorf, Aug 2025</td><td></td></tr>
+            <tr><td class="d">3 km</td><td class="t"><a href="https://results.sporthive.com/events/7306724524325964544/races/492864/bib/2005">13:01</a></td><td>Khorfakkan, Mar 2025</td><td></td></tr>
+            <tr class="yearhead"><td colspan="4">2024 · W13</td></tr>
+            <tr><td class="d">3000 m</td><td class="t"><a href="https://ergebnisse.leichtathletik.de/Competitions/CurrentList/728116/14026">12:54.37</a></td><td>Einbeck, Aug 2024</td><td></td></tr>
+            <tr><td class="d">200 m</td><td class="t">30.89</td><td>Abu Dhabi, Jun 2024</td><td></td></tr>
+            <tr class="yearhead"><td colspan="4">2023 · W12</td></tr>
+            <tr><td class="d">300 m</td><td class="t"><a href="https://ultimateathleticsuae.com/wp-content/uploads/2023/10/Ultimate-Racenight-Juniors-Oct-6th-Results.pdf">47.78</a></td><td>Dubai, Oct 2023</td><td></td></tr>
+            <tr><td class="d">Long jump</td><td class="t">4.18 m</td><td>Dubai, Oct 2023</td><td></td></tr>
+            <tr class="yearhead"><td colspan="4">2022 · W11</td></tr>
+            <tr><td class="d">4.2195 km</td><td class="t">18:57</td><td>Berlin Mini-Marathon</td><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figure class="gallery one">
+        <button data-cap="Track race in Dubai, bib 022"><img src="img/dubai-track-race.jpg" alt="Elena running on a track at night in a yellow Ultimate Athletics vest, bib 022" loading="lazy" style="aspect-ratio:auto"></button>
+        <figcaption>Racing for Ultimate Athletics Dubai</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="football">
+    <p class="seclabel">Football</p>
+    <h2>Kent College Dubai U14 Girls</h2>
+    <div class="clubs" style="margin-top:0.5rem">
+      <article class="club">
+        <div>
+          <p class="meta">Dubai, UAE · 2023/24 · school team</p>
+          <ul>
+            <li><span class="medal gold">1st</span><a href="https://www.schoolssports.com/competitionmicrosite/Competition.asp?TID=DASSA-Football&amp;TSID=8250">DASSA U14 Girls Football Plate</a> 2023/24 — I scored twice in the final</li>
+            <li><span class="medal gold">1st</span><a href="https://www.schoolssports.com/competitionmicrosite/fixtures.asp?TSID=7881&amp;G=Development%202">DASSA U14 Girls Development 2 League</a> 2023/24</li>
+            <li><span class="medal silver">2nd</span><a href="https://www.instagram.com/kcd_sport/reel/C2Eh0p1pPqt/">BSAK tournament</a> with the U13 team, Abu Dhabi 2024</li>
+            <li>Voted player of the match several times</li>
+          </ul>
+        </div>
+        <div class="gallery one">
+          <button data-cap="Kent College Dubai U14 Girls, season 2023/24"><img src="img/kent-college-u14-girls.jpg" alt="Kent College Dubai U14 girls' football team in maroon kits" loading="lazy"></button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="school">
+    <p class="seclabel">Off the pitch</p>
+    <h2>School</h2>
+    <div class="school">
+    <div class="timeline">
+      <div class="tl"><div class="yr">since 2025</div><div class="ev"><a href="https://www.siemens-gymnasium-berlin.de/">Werner-von-Siemens-Gymnasium</a>, Berlin</div></div>
+      <div class="tl"><div class="yr">2024/25</div><div class="ev"><a href="https://germanschool.ae/">German International School Dubai</a><br><span>Academic High Achiever — best academic performance of year 8, first half-year 2024/25 (Jan 2025) · High Achiever in Academics &amp; Sports (Jan 2025) · Mathematik-Olympiade 2024/25, second round · Lange Nacht der Mathematik 2024</span></div></div>
+      <div class="tl"><div class="yr">2023/24</div><div class="ev"><a href="https://linktr.ee/kentcollegedubai">Kent College Dubai</a><br><span>Year 8 Pupil of the Year in Maths and in French · UK Maths Trust Junior Mathematical Challenge 2024: Gold certificate, best in school · Intermediate Mathematical Challenge 2024: Bronze · U14 Girls football: Plate winners and league champions</span></div></div>
+      <div class="tl"><div class="yr">2021–2023</div><div class="ev"><a href="https://www.siemens-gymnasium-berlin.de/">Werner-von-Siemens-Gymnasium</a>, Berlin</div></div>
+    </div>
+    <figure class="gallery">
+      <button data-cap="Year 8 Pupil of the Year — Maths, Kent College Dubai 2023/24"><img src="img/kent-maths-pupil-of-the-year.jpg" alt="Glass trophy: Kent College Dubai, Elena Benzmueller, Maths, Year 8 Pupil of the Year" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="Year 8 Pupil of the Year — French, Kent College Dubai 2023/24"><img src="img/kent-french-pupil-of-the-year.jpg" alt="Glass trophy: Kent College Dubai, Elena Benzmueller, French, Year 8 Pupil of the Year" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="Academic High Achiever — best academic performance of year 8, German International School Dubai, 31 January 2025"><img src="img/disd-academic-high-achiever-jan-2025.jpg" alt="Certificate: Academic High Achiever, German International School Dubai, January 2025" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="High Achiever in Academics &amp; Sports, German International School Dubai, 31 January 2025"><img src="img/disd-high-achiever-sports-jan-2025.jpg" alt="Certificate: High Achiever in Academics and Sports, German International School Dubai, January 2025" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="UK Maths Trust, Junior Mathematical Challenge 2024 — Gold certificate, best in school"><img src="img/ukmt-junior-gold-2024.jpg" alt="UK Maths Trust Junior Mathematical Challenge 2024 gold certificate, best in school" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="UK Maths Trust, Intermediate Mathematical Challenge 2024 — Bronze certificate"><img src="img/ukmt-intermediate-bronze-2024.jpg" alt="UK Maths Trust Intermediate Mathematical Challenge 2024 bronze certificate" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="64. Mathematik-Olympiade 2024/25, second round — German International School Dubai, November 2024"><img src="img/mathe-olympiade-2024-25.jpg" alt="Certificate: participation in the second round of the 64th Mathematik-Olympiade 2024/25" loading="lazy" style="aspect-ratio:auto"></button>
+      <button data-cap="Lange Nacht der Mathematik, German International School Dubai, November 2024"><img src="img/lange-nacht-der-mathematik-2024.jpg" alt="Certificate of participation, Lange Nacht der Mathematik, November 2024" loading="lazy" style="aspect-ratio:auto"></button>
+    </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© Elena Benzmüller · last updated October 2026</span>
+    <span><a href="#">Back to top ↑</a></span>
+  </div>
+</footer>
+
+<dialog id="lb" aria-label="Photo">
+  <img src="" alt="">
+  <p></p>
+</dialog>
+
+<script>
+  const lb = document.getElementById('lb');
+  document.querySelectorAll('.gallery button').forEach(b => b.addEventListener('click', () => {
+    const img = b.querySelector('img');
+    lb.querySelector('img').src = img.src;
+    lb.querySelector('img').alt = img.alt;
+    lb.querySelector('p').textContent = b.dataset.cap || '';
+    lb.showModal();
+  }));
+  lb.addEventListener('click', () => lb.close());
+</script>
+</body>
+</html>
