@@ -6,6 +6,7 @@ Static single-page site served via GitHub Pages at
 - `index.html` — the whole page (no build step, no dependencies)
 - `img/` — photos, resized to ≤1600px and stripped of metadata (EXIF/GPS)
 - `docs/` — saved copies of result pages that may not stay online (PDF)
+- `docs/results/` — result sheets recovered from the MYLAPS Sporthive results API after the original links died (PDF + JSON, retrieved 28 Oct 2026)
 - `media/` — short video clips (H.264 MP4, ≤720p) with poster frames
 
 To add a photo: `sips -Z 1600 -s format jpeg -s formatOptions 80 in.jpg --out img/name.jpg`

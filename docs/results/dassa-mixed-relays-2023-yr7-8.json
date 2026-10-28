@@ -1,0 +1,421 @@
+{
+ "meta": {
+  "event": "DASSA Mixed Relays",
+  "date": "2023-11-06",
+  "race": "Yr 7 & 8 ",
+  "eventId": "7127507178728423680"
+ },
+ "label": "Mixed Relays 2023 · Yr 7 & 8",
+ "retrieved": "2026-10-28",
+ "source": "https://eventresults-api.speedhive.com/sporthive/races/7127507178728424704",
+ "teams": [
+  {
+   "team": "American School Dubai A",
+   "club": "American School Dubai",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "American School Dubai B",
+   "club": "American School Dubai",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Dove Green Private School A",
+   "club": "Dove Green Private School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Durham School B",
+   "club": "Durham School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "GEMS Dubai American Academy A",
+   "club": "GEMS Dubai American Academy",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "GEMS Founders Al Mizar A",
+   "club": "GEMS Founders Al Mizar",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "GEMS Founders School A",
+   "club": "GEMS Founders School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "GEMS International School A",
+   "club": "GEMS International School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "GEMS Wellington Academy, Al Khail A",
+   "club": "GEMS Wellington Academy, Al Khail",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Greenfield International School A",
+   "club": "Greenfield International School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Nord Anglia School B",
+   "club": "Nord Anglia School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Sunmarke School A",
+   "club": "Sunmarke School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Swiss International Scientific School A",
+   "club": "Swiss International Scientific School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Universal American School A",
+   "club": "Universal American School",
+   "pos": 0,
+   "time": ""
+  },
+  {
+   "team": "Kent College A",
+   "club": "Kent College",
+   "pos": 1,
+   "time": "00:15:06"
+  },
+  {
+   "team": "Dubai College B",
+   "club": "Dubai College",
+   "pos": 2,
+   "time": "00:15:11"
+  },
+  {
+   "team": "Jumeirah English Speaking School A",
+   "club": "Jumeirah English Speaking School ",
+   "pos": 3,
+   "time": "00:15:12"
+  },
+  {
+   "team": "North London Collegiate School A",
+   "club": "North London Collegiate School",
+   "pos": 4,
+   "time": "00:15:35"
+  },
+  {
+   "team": "Dubai English Speaking College A",
+   "club": "Dubai English Speaking College",
+   "pos": 5,
+   "time": "00:15:38"
+  },
+  {
+   "team": "Dubai College A",
+   "club": "Dubai College",
+   "pos": 6,
+   "time": "00:15:42"
+  },
+  {
+   "team": "Dubai International Academy, Emirates Hills A",
+   "club": "Dubai International Academy, Emirates Hills",
+   "pos": 7,
+   "time": "00:16:00"
+  },
+  {
+   "team": "Royal Grammar School A",
+   "club": "Royal Grammar School",
+   "pos": 8,
+   "time": "00:16:06"
+  },
+  {
+   "team": "Jumeirah English Speaking School B",
+   "club": "Jumeirah English Speaking School ",
+   "pos": 9,
+   "time": "00:16:07"
+  },
+  {
+   "team": "Safa Community School A",
+   "club": "Safa Community School",
+   "pos": 10,
+   "time": "00:16:07"
+  },
+  {
+   "team": "Dubai British School, Emirates Hills A",
+   "club": "Dubai British School, Emirates Hills",
+   "pos": 11,
+   "time": "00:16:19"
+  },
+  {
+   "team": "Dubai College C",
+   "club": "Dubai College",
+   "pos": 12,
+   "time": "00:16:19"
+  },
+  {
+   "team": "GEMS World Academy A",
+   "club": "GEMS World Academy",
+   "pos": 13,
+   "time": "00:16:26"
+  },
+  {
+   "team": "Repton School, Al Barsha A",
+   "club": "Repton School, Al Barsha",
+   "pos": 14,
+   "time": "00:16:39"
+  },
+  {
+   "team": "Arcadia School A",
+   "club": "Arcadia School",
+   "pos": 15,
+   "time": "00:16:43"
+  },
+  {
+   "team": "Jumeirah English Speaking School C",
+   "club": "Jumeirah English Speaking School ",
+   "pos": 16,
+   "time": "00:16:48"
+  },
+  {
+   "team": "Nord Anglia School A",
+   "club": "Nord Anglia School",
+   "pos": 17,
+   "time": "00:16:49"
+  },
+  {
+   "team": "Jumeirah English Speaking School D",
+   "club": "Jumeirah English Speaking School ",
+   "pos": 18,
+   "time": "00:16:50"
+  },
+  {
+   "team": "Safa Community School B",
+   "club": "Safa Community School",
+   "pos": 19,
+   "time": "00:17:06"
+  },
+  {
+   "team": "Dubai International Academy, Emirates Hills B",
+   "club": "Dubai International Academy, Emirates Hills",
+   "pos": 20,
+   "time": "00:17:10"
+  },
+  {
+   "team": "North London Collegiate School B",
+   "club": "North London Collegiate School",
+   "pos": 21,
+   "time": "00:17:11"
+  },
+  {
+   "team": "English College A",
+   "club": "English College",
+   "pos": 22,
+   "time": "00:17:13"
+  },
+  {
+   "team": "Deira International School A",
+   "club": "Deira International School",
+   "pos": 23,
+   "time": "00:17:28"
+  },
+  {
+   "team": "Arbor School A",
+   "club": "Arbor School",
+   "pos": 24,
+   "time": "00:17:28"
+  },
+  {
+   "team": "Kings' School Al Barsha A",
+   "club": "Kings' School Al Barsha",
+   "pos": 25,
+   "time": "00:17:37"
+  },
+  {
+   "team": "Southview School A",
+   "club": "Southview School",
+   "pos": 26,
+   "time": "00:17:39"
+  },
+  {
+   "team": "Dubai College D",
+   "club": "Dubai College",
+   "pos": 27,
+   "time": "00:17:41"
+  },
+  {
+   "team": "Durham School A",
+   "club": "Durham School",
+   "pos": 28,
+   "time": "00:17:45"
+  },
+  {
+   "team": "Jumeira Baccalaureate School B",
+   "club": "Jumeira Baccalaureate School",
+   "pos": 29,
+   "time": "00:18:05"
+  },
+  {
+   "team": "Jebel Ali School A",
+   "club": "Jebel Ali School",
+   "pos": 30,
+   "time": "00:18:13"
+  },
+  {
+   "team": "GEMS Metropole School A",
+   "club": "GEMS Metropole School",
+   "pos": 31,
+   "time": "00:18:15"
+  },
+  {
+   "team": "Hartland International School A",
+   "club": "Hartland International School",
+   "pos": 32,
+   "time": "00:18:21"
+  },
+  {
+   "team": "Jumeira Baccalaureate School A",
+   "club": "Jumeira Baccalaureate School",
+   "pos": 33,
+   "time": "00:18:32"
+  },
+  {
+   "team": "Fairgreen International School A",
+   "club": "Fairgreen International School",
+   "pos": 34,
+   "time": "00:18:51"
+  },
+  {
+   "team": "Bloom World Academy A",
+   "club": "Bloom World Academy",
+   "pos": 35,
+   "time": "00:18:53"
+  },
+  {
+   "team": "Dubai English Speaking College B",
+   "club": "Dubai English Speaking College",
+   "pos": 36,
+   "time": "00:18:58"
+  },
+  {
+   "team": "Safa British School A",
+   "club": "Safa British School",
+   "pos": 37,
+   "time": "00:19:00"
+  },
+  {
+   "team": "Dubai English Speaking College C",
+   "club": "Dubai English Speaking College",
+   "pos": 38,
+   "time": "00:19:10"
+  },
+  {
+   "team": "Raffles World Academy A",
+   "club": "Raffles World Academy",
+   "pos": 39,
+   "time": "00:19:22"
+  },
+  {
+   "team": "Horizon International School A",
+   "club": "Horizon International School",
+   "pos": 40,
+   "time": "00:19:23"
+  },
+  {
+   "team": "Safa British School B",
+   "club": "Safa British School",
+   "pos": 41,
+   "time": "00:19:32"
+  },
+  {
+   "team": "Kent College B",
+   "club": "Kent College",
+   "pos": 42,
+   "time": "00:19:38"
+  },
+  {
+   "team": "Dubai International Academy, Al Barsha A",
+   "club": "Dubai International Academy, Al Barsha",
+   "pos": 43,
+   "time": "00:19:56"
+  },
+  {
+   "team": "Jumeirah College A",
+   "club": "Jumeirah College",
+   "pos": 44,
+   "time": "00:20:00"
+  },
+  {
+   "team": "GEMS First Point School A",
+   "club": "GEMS First Point School",
+   "pos": 45,
+   "time": "00:20:16"
+  },
+  {
+   "team": "GEMS Wellington Academy, Silicon Oasis A",
+   "club": "GEMS Wellington Academy, Silicon Oasis",
+   "pos": 46,
+   "time": "00:20:20"
+  },
+  {
+   "team": "Dubai British School, Jumeirah Park A",
+   "club": "Dubai British School, Jumeirah Park ",
+   "pos": 47,
+   "time": "00:20:52"
+  },
+  {
+   "team": "Raffles International School A",
+   "club": "Raffles International School",
+   "pos": 48,
+   "time": "00:21:01"
+  },
+  {
+   "team": "Repton School, Dubai A",
+   "club": "Repton School, Dubai",
+   "pos": 49,
+   "time": "00:21:40"
+  },
+  {
+   "team": "Aquila School A",
+   "club": "Aquila School",
+   "pos": 50,
+   "time": "00:21:50"
+  },
+  {
+   "team": "Bloom World Academy B",
+   "club": "Bloom World Academy",
+   "pos": 51,
+   "time": "00:22:12"
+  },
+  {
+   "team": "GEMS Wellington International School A",
+   "club": "GEMS Wellington International School",
+   "pos": 52,
+   "time": "00:23:38"
+  },
+  {
+   "team": "Horizon International School B",
+   "club": "Horizon International School",
+   "pos": 53,
+   "time": "00:23:43"
+  },
+  {
+   "team": "Collegiate International School A",
+   "club": "Collegiate International School",
+   "pos": 54,
+   "time": "00:24:21"
+  }
+ ]
+}
